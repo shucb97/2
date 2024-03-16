@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    setlocale(LC_ALL, "Russian");
+    float(x);
+    float(y);
+    printf("Введите координаты точки X: ");
+    scanf_s("%f", &x);
+    printf("Введите координаты точки Y: ");
+    scanf_s("%f", &y);
+     if ((x == 0, 61) && (x * x + y * y <= 1)) {
+        printf("Tochka lezit na granice okruznosti");
+    }
+    else if ((x > 0) && (x < 0,61) && (x * x + y * y < 1)) {
+        printf("Tochka prinadlezit oblasti");
+    }
+    else if (((x < 0) || (x > 0,61)) && (x * x + y * y > 1)) {
+        printf("Tochka ne prinadlezit oblasti");
+    }
+    else if ((x == 0) && (x * x * y * y < 1)) {
+        printf("Tochka lezit na granice okruznosti");
+    }
+    else if ((x > 0) && (x < 0,61) && (x * x + y * y == 1)) {
+        printf("Tochka lezit na granice okruznosti");
+    }
+    return 0;
+}
+
